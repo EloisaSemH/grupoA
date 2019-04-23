@@ -4,6 +4,7 @@ O que é controle de versão?
 O que é o Git?
  Git é um dos vários Sistemas de Controle de Versão de arquivos. Através dele é possível desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas. Umas das principais aplicações do Git é justamente esta, permitir que um arquivo possa ser editado ao mesmo tempo por pessoas diferentes.
 O que é GitHub?
+É  uma espécie de rede social para desenvolvedores e programadores. Ele possui diversas funcionalidades, como feeds, followers (que seriam seus amigos), wiki e um gráfico que mostra como os desenvolvedores estão contribuindo trabalhando nas versões de seus repositórios. Este serviço web oferece diversas funcionalidades extras aplicadas ao Git, de forma gratuita, mas também existem planos comerciais para projetos de código privados. O GitHub permite que você hospede seus projetos pessoais em nuvem. Além disso, quase todos os projetos/frameworks/bibliotecas sobre desenvolvimento open source estão no GitHub, e você pode acompanhá-los através de novas versões, contribuir informando bugs ou até mesmo enviando código e correções.Para você começar a trabalhar com o Git, você deve instalar um software em seu computador, que é um próprio sistema de controle de versão.
 O que é GitLab?
 Explicação de como criar uma conta em um dos serviços.
 Como é a instalação do git no Linux.
