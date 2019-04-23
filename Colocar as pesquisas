@@ -2,6 +2,7 @@ O que é controle de versão?
  O controle de versão é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. 
  O método preferido de controle de versão por muitas pessoas é copiar arquivos em outro diretório (talvez um diretório com data e hora, se forem espertos). Esta abordagem é muito comum por ser tão simples, mas é também muito suscetível a erros. É fácil esquecer em qual diretório você está e gravar acidentalmente no arquivo errado ou sobrescrever arquivos sem querer.
 O que é o Git?
+ Git é um dos vários Sistemas de Controle de Versão de arquivos. Através dele é possível desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas. Umas das principais aplicações do Git é justamente esta, permitir que um arquivo possa ser editado ao mesmo tempo por pessoas diferentes.
 O que é GitHub?
 O que é GitLab?
 Explicação de como criar uma conta em um dos serviços.
