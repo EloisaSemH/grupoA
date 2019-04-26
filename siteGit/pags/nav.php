@@ -1,11 +1,13 @@
-<nav class="col-sm-4 float-left mt-2"">
+<nav class="col-sm-3 float-left mt-2">
     <ul class="list-group" style="list-style: none;">
 
 <?php
-    if(is_null($_GET['pg'])){
-        $pg = 'home';
+    @$pg = $_GET['pg'];
+
+    if($pg == '' || $pg == 'home'){
+        echo '<li><a href="index.php?pg=home" class="list-group-item list-group-item-action active">Home</a></li>';
     }else{
-        $pg = $_GET['pg'];
+        echo '<li><a href="index.php?pg=home" class="list-group-item list-group-item-action">Home</a></li>';
     }
 
     if($pg == 'controledeversao'){
@@ -72,6 +74,12 @@
         echo '<li><a href="index.php?pg=gitefaculdade" class="list-group-item list-group-item-action active">Como um grupo de faculdade pode usar git para colaborar em um projeto</a></li>';
     }else{
         echo '<li><a href="index.php?pg=gitefaculdade" class="list-group-item list-group-item-action">Como um grupo de faculdade pode usar git para colaborar em um projeto</a></li>';
+    }
+
+    if($pg == 'referencias'){
+        echo '<li><a href="index.php?pg=referencias" class="list-group-item list-group-item-action active">Referências bibliográficas</a></li>';
+    }else{
+        echo '<li><a href="index.php?pg=referencias" class="list-group-item list-group-item-action">Referências bibliográficas</a></li>';
     }
 ?>      
     </ul>

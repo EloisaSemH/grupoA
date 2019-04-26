@@ -10,7 +10,16 @@ header {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+    padding-top: 5px; 
     background-color: aqua;
 }
 
-article {}
+article p{
+    text-align: justify;
+    text-indent: 2em;
+}
+
+article section{
+    text-align: center;
+    margin: 10px auto;
+}

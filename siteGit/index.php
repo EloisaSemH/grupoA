@@ -8,6 +8,9 @@
     @$pg = $_GET['pg'];
 
     switch($pg){
+        case 'home':
+            include('pags/inicio.html');
+            break;
         case 'controledeversao':
             include('pags/controledeversao.html');
             break;
@@ -40,6 +43,9 @@
             break;
         case 'gitefaculdade':
             include('pags/gitefaculdade.html');
+            break;
+        case 'referencias':
+            include('pags/referencias.html');
             break;
         default:
             include('pags/inicio.html');
