@@ -10,8 +10,10 @@ header {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+    color: white;
     padding-top: 5px; 
-    background-color: aqua;
+    background-image: url("../img/pattern.jpg");
+    background-color: #fff;
 }
 
 article p{
