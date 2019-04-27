@@ -12,6 +12,7 @@ O que é GitLab?
 GitLab é um gerenciador de repositório de software baseado em git, possuí suporte a Wiki, gerenciamento de tarefas e CI/CD, é similar ao GitHub, entretanto, o GitLab permite que os desenvolvedores armazenem o código em seus próprios servidores.
 
 Explicação de como criar uma conta em um dos serviços.
+
 Como é a instalação do git no Linux.
 1º passo
 Abra o terminal
@@ -54,6 +55,10 @@ git checkout -- (arquivo) - subscreve as alterações locais
 O que é git pull?
 O que são branches?
 Como arrumar uma mensagem errada em um commit.
+Basta realizar um --amend:
+
+git commit --amend
+Ele abrirá o editor de texto com a mensagem do último commit e você pode atualizar a mensagem.
 Explicação sobre como um grupo de faculdade pode usar git para colaborar em um projeto?
 
 
