@@ -15,7 +15,19 @@ Explicação de como criar uma conta em um dos serviços.
 Como é a instalação do git no Linux.
 Como é a instalação do git no Windows.
 Como configurar o git.
+
 Quais os principais comandos do git?
+git init - cria um nono repositório
+git clone /"caminho para o repositório"/ - cria uma cópia de trabalho em um repositório local
+git pull - atualiza o repositório local
+git merge (branch) - mescla outro branch ao seu 
+git add (arquivo) - adiciona mudanças aos index
+git commit -m "comentários das alterações" - grava as alterações no repositório local
+git push origin (nome do branch) - envia alterações ao repositório remoto
+git remote add origin <servidor> - conecta em um servidor 
+git checkout -- (arquivo) - subscreve as alterações locais
+
+
 O que é git pull?
 O que são branches?
 Como arrumar uma mensagem errada em um commit.
