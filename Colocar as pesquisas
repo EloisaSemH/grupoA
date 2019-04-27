@@ -38,7 +38,19 @@ Utilizando o comando ls - a podemos ver que foi criado o arquivo .gitconfig , es
 Utilizaremos o comando cat .gitconfig para  que os parametros de configuração de nome e email sejam exibidos.
 
 Como é a instalação do git no Windows.
+
 Como configurar o git.
+A primeira coisa a se fazer é definir seu nome de usuário e e-mail, para isso use os seguintes comandos:
+$ git config --global user.name "Seu Nome de Usuário"
+$ git config --global user.email seuemail@email.com
+Obs: você só precisará fazer isso uma vez caso passe a opção --global, pois o Git sempre usará essa informação para qualquer coisa que você faça nesse sistema.
+O Git utiliza o editor padrão do sistema Vi ou Vim, mas é possível configurar para um editor de sua preferência através do comando:
+$ git config --global core.editor nomeeditor
+Caso queira configurar a ferramenta padrão de diff utilizada para resolver conflitos de merge:
+$ git config --global merge.tool kdiff3
+Git aceita kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff, ecmerge e opendiff.
+Para verificar suas configurações, utilize:
+$ git config --list
 
 Quais os principais comandos do git?
 git init - cria um nono repositório
