@@ -67,6 +67,8 @@ O que é git pull?
 Incorpora alterações de um repositório remoto num branch atual.
 
 O que são branches?
+Branches são cópias de alguma parte do projeto, para que você possa trabalhá-las separadamente.
+
 Como arrumar uma mensagem errada em um commit.
 Basta realizar um --amend:
 
