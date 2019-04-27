@@ -63,8 +63,9 @@ git push origin (nome do branch) - envia alterações ao repositório remoto
 git remote add origin <servidor> - conecta em um servidor 
 git checkout -- (arquivo) - subscreve as alterações locais
 
-
 O que é git pull?
+Incorpora alterações de um repositório remoto num branch atual.
+
 O que são branches?
 Como arrumar uma mensagem errada em um commit.
 Basta realizar um --amend:
