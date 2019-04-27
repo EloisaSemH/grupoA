@@ -13,6 +13,29 @@ GitLab é um gerenciador de repositório de software baseado em git, possuí sup
 
 Explicação de como criar uma conta em um dos serviços.
 Como é a instalação do git no Linux.
+1º passo
+Abra o terminal
+2º passo
+Devemos instalar via PPA 
+Um Personal Package Archive (PPA), em português Arquivo de Pacote Pessoal, é um repositório de software especial para carregar (upload) pacotes de fontes a serem compilados e publicados como um repositório APT ou Launchpad. 
+execute o comando :
+sudo add-apt-repository  ppa:git-core/ppa
+3º passo
+execute o comando: 
+sudo apt-get update
+esse comando vai  atualizar o  repositório
+4º passo
+execute o comando  :
+sudo apt-get install git +
+basta confirmar e o github estará instalado
+Ao listarmos os diretórios, podemos ver que foi instalado "sudo_as_admin_sucessfull
+Agora vamos configurar  o usuário e o email, basta executar os comandos:
+git config --global user.name "digite seu usuário"
+configurado o nome do usuario, configuraremos o email utilizando o comando :
+git config --global user.email "digite seu email"
+Utilizando o comando ls - a podemos ver que foi criado o arquivo .gitconfig , esse arquivo tem um ponto na frente do nome o que significa que é um arquivo oculto.
+Utilizaremos o comando cat .gitconfig para  que os parametros de configuração de nome e email sejam exibidos.
+
 Como é a instalação do git no Windows.
 Como configurar o git.
 
