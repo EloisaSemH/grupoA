@@ -4,23 +4,30 @@
 
     <h2>1º passo</h2>
     <p>Abra o terminal</p>
+    <img src="gitlinux/%20LINUX%20%20(1).png">
+
+
     <h2>2º passo</h2>
     <p>Devemos instalar via PPA
         Um Personal Package Archive (PPA), em português Arquivo de Pacote Pessoal, é um repositório de software especial
         para carregar (upload) pacotes de fontes a serem compilados e publicados como um repositório APT ou Launchpad.
         execute o comando :
         <ul>
-            <li><code>sudo add-apt-repository  ppa:git-core/ppa</code></li>
+            <li><code>sudo add-apt-repository ppa:git-core/ppa</code></li>
         </ul>
+        <img src="gitlinux/%20LINUX%20%20(2).png">
     </p>
-    <h2>3º passo</h2>
+
     <p>
+        <h2>3º passo</h2>
         execute o comando:
         <ul>
             <li><code>sudo apt-get update</code></li>
         </ul>
         esse comando vai atualizar o repositório
+        <img src="gitlinux/%20LINUX%20%20(3).png">
     </p>
+
     <h2>4º passo</h2>
     <p>
         execute o comando :
@@ -28,20 +35,32 @@
             <li><code>sudo apt-get install git +</code></li>
         </ul>
         basta confirmar e o github estará instalado
+        <img src="gitlinux/%20LINUX%20%20(4).png">
+        <img src="gitlinux/%20LINUX%20%20(5).png">
+        <img src="gitlinux/%20LINUX%20%20(6).png">
+        <img src="gitlinux/%20LINUX%20%20(7).png">
+        <img src="gitlinux/%20LINUX%20%20(8).png">
+
     </p>
     <p>
         Ao listarmos os diretórios, podemos ver que foi instalado "<code>sudo_as_admin_sucessfull</code>
         Agora vamos configurar o usuário e o email, basta executar os comandos:
         <ul>
             <li><code>git config --global user.name</code> "digite seu usuário"</li>
+            <img src="gitlinux/%20LINUX%20%20(9).png">
         </ul>
         configurado o nome do usuario, configuraremos o email utilizando o comando :
         <ul>
             <li><code>git config --global user.email</code> "digite seu email"</li>
+            <img src="gitlinux/%20LINUX%20%20(10).png">
         </ul>
         Utilizando o comando <code>ls - a</code> podemos ver que foi criado o arquivo <code>.gitconfig</code> , esse
         arquivo tem um ponto na frente do nome o que significa que é um arquivo oculto.
+        <img src="gitlinux/%20LINUX%20%20(11).png">
         Utilizaremos o comando <code>cat .gitconfig</code> para que os parametros de configuração de nome e email sejam
         exibidos.
+        <img src="gitlinux/%20LINUX%20%20(12).png">
+        <img src="gitlinux/%20LINUX%20%20(13).png">
+
     </p>
 </article>
