@@ -1,12 +1,19 @@
 <article class="col-sm-9 float-left mt-2">
     <h1>Configurando o Git</h1>
     <p>
-        O controle de versão é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao
-        longo do tempo de forma que você possa recuperar versões específicas.
-        O método preferido de controle de versão por muitas pessoas é copiar arquivos em outro diretório (talvez um
-        diretório com data e hora, se forem espertos). Esta abordagem é muito comum por ser tão simples, mas é também
-        muito suscetível a erros. É fácil esquecer em qual diretório você está e gravar acidentalmente no arquivo errado
-        ou sobrescrever arquivos sem querer.
+        Como é a instalação do git no Windows.
 
+        Como configurar o git.
+        A primeira coisa a se fazer é definir seu nome de usuário e e-mail, para isso use os seguintes comandos:
+        $ git config --global user.name "Seu Nome de Usuário"
+        $ git config --global user.email seuemail@email.com
+        Obs: você só precisará fazer isso uma vez caso passe a opção --global, pois o Git sempre usará essa informação para qualquer coisa que você faça nesse sistema.
+        O Git utiliza o editor padrão do sistema Vi ou Vim, mas é possível configurar para um editor de sua preferência através do comando:
+        $ git config --global core.editor nomeeditor
+        Caso queira configurar a ferramenta padrão de diff utilizada para resolver conflitos de merge:
+        $ git config --global merge.tool kdiff3
+        Git aceita kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff, ecmerge e opendiff.
+        Para verificar suas configurações, utilize:
+        $ git config --list
     </p>
 </article>
