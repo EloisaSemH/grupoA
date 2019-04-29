@@ -1,21 +1,31 @@
 <article class="col-sm-9 float-left mt-2">
     <h1>Configurando o Git</h1>
     <p>
-        Como é a instalação do git no Windows.
-
-        Como configurar o git.
-        A primeira coisa a se fazer é definir seu nome de usuário e e-mail, para isso use os seguintes comandos:
-        <code>$ git config --global user.name "Seu Nome de Usuário"</code>
-        <code>$ git config --global user.email seuemail@email.com</code>
-        Obs: você só precisará fazer isso uma vez caso passe a opção --global, pois o Git sempre usará essa informação
-        para qualquer coisa que você faça nesse sistema.
-        O Git utiliza o editor padrão do sistema Vi ou Vim, mas é possível configurar para um editor de sua preferência
-        através do comando:
-        <code>$ git config --global core.editor nomeeditor</code>
-        Caso queira configurar a ferramenta padrão de diff utilizada para resolver conflitos de merge:
-        <code>$ git config --global merge.tool kdiff3</code>
-        Git aceita kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff, ecmerge e opendiff.
-        Para verificar suas configurações, utilize:
-        <code>$ git config --list</code>
-    </p>
+        <h2>Como configurar o git.</h2>
+        <p>A primeira coisa a se fazer é definir seu nome de usuário e e-mail, para isso use os seguintes comandos:
+            <ol>
+                <li><code>$ git config --global user.name "Seu Nome de Usuário"</code></li>
+                <li><code>$ git config --global user.email seuemail@email.com</code></li>
+            </ol>
+            Obs: você só precisará fazer isso uma vez caso passe a opção --global, pois o Git sempre usará essa
+            informação
+            para qualquer coisa que você faça nesse sistema.
+        </p>
+        <p>
+            O Git utiliza o editor padrão do sistema Vi ou Vim, mas é possível configurar para um editor de sua
+            preferência
+            através do comando:
+            <ul>
+                <li><code>$ git config --global core.editor nomeeditor</code></li>
+            </ul>
+            Caso queira configurar a ferramenta padrão de diff utilizada para resolver conflitos de merge:
+            <ul>
+                <li><code>$ git config --global merge.tool kdiff3</code></li>
+            </ul>
+            Git aceita kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff, gvimdiff, ecmerge e opendiff.
+            Para verificar suas configurações, utilize:
+            <ul>
+                <li><code>$ git config --list</code></li>
+            </ul>
+        </p>
 </article>
