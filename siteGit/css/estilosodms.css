@@ -26,11 +26,10 @@ article section{
     margin: 10px auto;
 }
 
-h1, h2{
+h1{
     text-align: center;
 }
-
 .imgwindows{
     position: absolute;
-    margin-left: 150px;
+    margin-left:50px;
 }
