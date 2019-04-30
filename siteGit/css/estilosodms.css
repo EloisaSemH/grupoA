@@ -29,3 +29,9 @@ article section{
 h1{
     text-align: center;
 }
+
+section{
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
